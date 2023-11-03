@@ -32,7 +32,7 @@ variable "vpc_tags" {
 
 variable "available_zone" {
   type        = string
-  default     = "ap-guangzhou-3"
+  default     = "ap-guangzhou-4"
   description = "Specify available zone of VPC subnet and TKE nodes."
 }
 
