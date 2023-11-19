@@ -5,11 +5,11 @@ terraform {
       version = "1.77.8"
     }
   }
-  backend "cos" {
-    region = "ap-guangzhou"
-    bucket = "keep-gitops-dev-1309118522"
-    prefix = "terraform/state"
-  }
+  # backend "cos" {
+    # region = "ap-guangzhou"
+    # bucket = "keep-gitops-dev-1309118522"
+    # prefix = "terraform/state"
+  # }
 }
 
 provider "tencentcloud" {
